@@ -12,7 +12,7 @@ app.use(express.json())
 
 // Cross origin recurse sharing - compartilhamento recursivo de origem cruzada "Diferentes" 
 // Usado para aceitar requisições vindas de origens diferentes, ou seja, qualquer outro http .... diferente do nosso.
- app.use(cors())
+app.use(cors())
 
 // importando os controllers
 const usuarioController = require('./controllers/usuario-controller.js')
